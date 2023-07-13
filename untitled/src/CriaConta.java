@@ -12,5 +12,10 @@ public class CriaConta {
 
         System.out.println("O saldo da primeira conta: " + primeiraConta.saldo);
         System.out.println("O saldo do segunda conta: " + segundaConta.saldo);
+
+        Conta contaOdin = new Conta();
+        contaOdin.deposita(100);
+
+        System.out.println("o saldo da conta do Odin é: " + contaOdin.saldo);
     }
 }
