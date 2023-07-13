@@ -15,7 +15,10 @@ public class CriaConta {
 
         Conta contaOdin = new Conta();
         contaOdin.deposita(100);
-
         System.out.println("o saldo da conta do Odin é: " + contaOdin.saldo);
+
+        contaOdin.transfere(10, primeiraConta);
+        System.out.println("novo saldo odin: " + contaOdin.saldo);
+        System.out.println("novo saldo primeira conta:" + primeiraConta.saldo);
     }
 }
