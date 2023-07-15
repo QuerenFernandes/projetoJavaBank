@@ -5,7 +5,7 @@ public class TestaBanco {
         queren.setCpf("000.000.000-00");
         queren.setProfissao("engenheira de software");
 
-        Conta contaDaQueren = new Conta();
+        Conta contaDaQueren = new Conta(0104, 123654);
         contaDaQueren.deposita(5000);
 
         //associa a cliente queren à conta contaDaQueren (composição)
