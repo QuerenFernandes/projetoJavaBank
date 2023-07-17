@@ -3,6 +3,9 @@ public class Cliente {
         private String cpf;
         private String profissao;
 
+        public Cliente() {
+
+        }
         public String getNome() {
                 return nome;
         }
