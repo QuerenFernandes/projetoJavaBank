@@ -8,6 +8,6 @@ public class TestaFuncionario {
         queren.setCargo("Engenheira de Software");
         queren.setSalario(5000);
 
-        System.out.println("Dados da funcionária: " + queren.getNome() + queren.getCpf() +  queren.getCargo() + queren.getSalario() + queren.getbonificacao());
+        System.out.println("Dados da funcionária: " + queren.getNome() + queren.getCpf() +  queren.getCargo() + queren.getSalario() + queren.getBonificacao());
     }
 }

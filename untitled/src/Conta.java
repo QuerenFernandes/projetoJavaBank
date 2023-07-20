@@ -1,3 +1,5 @@
+package untitled.src;
+
 public class Conta {
     int agencia;
     int numero;
@@ -11,6 +13,7 @@ public class Conta {
     //criando o construtor da conta
     public Conta (int agencia, int numero) {
         Conta.total ++;
+        System.out.println("O total de contas é " + Conta.total);
         this.agencia = agencia;
         this.numero = numero;
         System.out.println("Conta criada com sucesso! " + "agencia: " + this.agencia + "número: " + this.numero);
