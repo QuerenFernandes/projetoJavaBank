@@ -2,7 +2,7 @@ package untitled.src;
 
 public class TestaFuncionario {
     public static void main(String[] args) {
-        Funcionario queren = new Funcionario();
+        Funcionario queren = new Gerente();
         queren.setNome("Queren Hapuque");
         queren.setCpf("111.111.111-11");
         queren.setCargo("Engenheira de Software");

@@ -1,5 +1,5 @@
 package untitled.src;
-
+// não é possível instanciar a classe porque a mesma é abstrata.
 public abstract class Funcionario {
     private String nome;
     private String cargo;
@@ -42,8 +42,6 @@ public abstract class Funcionario {
     public void setSalario(double salario) {
         this.salario = salario;
     }
-
-    public double getBonificacao() {
-        return this.salario * 0.1;
-    }
+// o método abstrato obriga as classes filhas a implementarem o método
+    public abstract double getBonificacao();
 }

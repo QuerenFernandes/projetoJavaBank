@@ -1,10 +1,10 @@
 package untitled.src;
 
-public class Conta {
+public abstract class Conta {
     int agencia;
     int numero;
     // ao declarar o atributo como privado, apenas a própria classe pode acessá-lo
-    private double saldo;
+    protected double saldo;
     // atributo global que irá contar quantas contas já foram criadas
     private static int total = 0;
     private Cliente titular;
@@ -65,9 +65,7 @@ public class Conta {
     public static int getTotal(){
         return Conta.total;
     }
-    public void deposita(double valor) {
-        this.saldo = this.saldo + valor;
-    }
+    public abstract void deposita(double valor);
 
     public boolean saca(double valor) {
         if (saldo >= valor) {
