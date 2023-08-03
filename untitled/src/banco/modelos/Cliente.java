@@ -1,4 +1,12 @@
 package untitled.src.banco.modelos;
+
+/**
+ * Classe que representa um cliente no ByteBank
+ *
+ * @author Queren
+ * @version 0.1
+ */
+
 public class Cliente implements Autenticavel {
 
         private int senha;

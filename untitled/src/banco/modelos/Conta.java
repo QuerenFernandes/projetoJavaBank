@@ -1,5 +1,10 @@
 package untitled.src.banco.modelos;
 
+/**
+ * @author Queren Fernandes
+ * @version 1.0
+ */
+
 public abstract class Conta {
     int agencia;
     int numero;
@@ -9,6 +14,13 @@ public abstract class Conta {
     private static int total = 0;
     private Cliente titular;
 
+
+//Criando javadoc do construtor da classe conta:
+    /**
+     *
+     * @param agencia
+     * @param numero
+     */
 
     //criando o construtor da conta
     public Conta (int agencia, int numero) {
@@ -47,14 +59,6 @@ public abstract class Conta {
     public double getSaldo() {
         return this.saldo;
     }
-    /*
-    LINHAS DE CÓDIGO DESNECESSÁRIAS DEVIDO AO FATO QUE DE O SALDO NÃO
-    SER ALTERADO PELO MÉTODO SET, APENAS ATRAVÉS DAS INTERAÇÕES
-    COM OS MÉTODOS DEFINIDOS
-    public void setSaldo(int saldo) {
-        this.saldo = saldo;
-    }
-    */
     public Cliente getTitular(){
         return this.titular;
     }

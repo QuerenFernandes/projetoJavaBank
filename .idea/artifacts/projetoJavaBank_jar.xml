@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="projetoJavaBank:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/projetoJavaBank_jar</output-path>
+    <root id="archive" name="projetoJavaBank.jar">
+      <element id="module-output" name="projetoJavaBank" />
+    </root>
+  </artifact>
+</component>
