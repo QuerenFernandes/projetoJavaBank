@@ -1,4 +1,4 @@
-package untitled.src;
+package untitled.src.banco.modelos;
 
 public class CriaConta {
     public static void main(String[] args) {

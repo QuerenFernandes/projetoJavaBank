@@ -1,4 +1,10 @@
-package untitled.src;
+package untitled.src.banco.testes;
+
+import untitled.src.banco.modelos.Administrador;
+import untitled.src.banco.modelos.Cliente;
+import untitled.src.banco.modelos.Gerente;
+import untitled.src.banco.modelos.SistemaInterno;
+
 public class TesteSistema {
 
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package untitled.src;
+package untitled.src.banco.testes;
+
+import untitled.src.banco.modelos.Gerente;
 
 public class TestaGerente {
     public static void main(String[] args) {

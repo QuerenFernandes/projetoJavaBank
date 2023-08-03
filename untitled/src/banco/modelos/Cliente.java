@@ -1,4 +1,4 @@
-package untitled.src;
+package untitled.src.banco.modelos;
 public class Cliente implements Autenticavel {
 
         private int senha;

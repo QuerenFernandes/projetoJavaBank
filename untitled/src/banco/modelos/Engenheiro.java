@@ -1,4 +1,4 @@
-package untitled.src;
+package untitled.src.banco.modelos;
 
 public class Engenheiro extends Funcionario{
         public double getBonificacao(){

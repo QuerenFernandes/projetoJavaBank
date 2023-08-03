@@ -1,4 +1,4 @@
-package untitled.src;
+package untitled.src.banco.modelos;
 // não é possível instanciar a classe porque a mesma é abstrata.
 public abstract class Funcionario {
     private String nome;

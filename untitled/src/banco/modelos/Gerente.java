@@ -1,4 +1,4 @@
-package untitled.src;
+package untitled.src.banco.modelos;
 //Gerente eh um Funcionario, Gerente herda da class Funcionario, assina o contrato Autenticavel, eh um Autenticavel
 public class Gerente extends Funcionario implements Autenticavel {
     private int senha;

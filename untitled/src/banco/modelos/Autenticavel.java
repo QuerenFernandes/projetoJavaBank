@@ -1,4 +1,4 @@
-package untitled.src;
+package untitled.src.banco.modelos;
 //contrato Autenticavel
 //quem assina esse contrato, precisa implementar
 //metodo setSenha

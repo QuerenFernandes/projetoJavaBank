@@ -1,4 +1,7 @@
-package untitled.src;
+package untitled.src.banco.testes;
+
+import untitled.src.banco.modelos.ContaCorrente;
+import untitled.src.banco.modelos.ContaPoupanca;
 
 public class TestaContas {
     public static void main(String[] args) {

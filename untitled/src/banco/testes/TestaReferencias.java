@@ -1,4 +1,8 @@
-package untitled.src;
+package untitled.src.banco.testes;
+
+import untitled.src.banco.modelos.ControleBonificacao;
+import untitled.src.banco.modelos.Engenheiro;
+import untitled.src.banco.modelos.Estagiario;
 
 public class TestaReferencias {
     public static void main(String[] args) {

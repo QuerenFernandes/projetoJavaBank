@@ -1,4 +1,8 @@
-package untitled.src;
+package untitled.src.banco.testes;
+
+import untitled.src.banco.modelos.CalculadorDeImposto;
+import untitled.src.banco.modelos.ContaCorrente;
+import untitled.src.banco.modelos.SeguroDeVida;
 
 public class TestaTributavel {
     public static void main(String[] args) {
