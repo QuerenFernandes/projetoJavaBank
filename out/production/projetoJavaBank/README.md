@@ -1,17 +1,5 @@
-# Nome do meu projeto
+# Projeto Java Bank
 
-Rápida descrição do objetivo de fazer esse projeto
+Projeto de ensino dos cursos introdutórios em OO com JAVA. O projeto conta com todos os pilares da Orientação à Objetos, sendo divido em classes e intefaces em prol da funcionalidade. 
+Todas as classes estão sendo executadas sem erros. 
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
-
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
-
-## Detalhes do projeto
-
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...

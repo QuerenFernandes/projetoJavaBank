@@ -93,5 +93,9 @@ public abstract class Conta {
         return false;
     }
 
+    public String toString(){
+        return "Numero: " + this.numero + ", Agencia: " + this.agencia;
+    }
+
 
 }
